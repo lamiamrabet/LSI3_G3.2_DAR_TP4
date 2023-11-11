@@ -2,8 +2,6 @@ package act1;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class Serveur {
 	private static final int PORT = 1234;
