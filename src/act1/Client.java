@@ -22,14 +22,6 @@ public class Client {
         DatagramPacket packetToReceive = new DatagramPacket(buffer, buffer.length);
         socket.receive(packetToReceive);
         System.out.println("serveur: " + new String(packetToReceive.getData(), 0, packetToReceive.getLength()));
-		//act2
-		/*DatagramPacket userNamePacket = new DatagramPacket(buffer, buffer.length,
-				InetAddress.getByName("localhost"), PORT);
-		socket.send(userNamePacket);
-		DatagramPacket packetToReceive = new DatagramPacket(buffer, buffer.length);
-		socket.receive(packetToReceive);
-		System.out.println("serveur: " + new String(packetToReceive.getData(), 0, packetToReceive.getLength()));
-*/
 	}
 
 }
